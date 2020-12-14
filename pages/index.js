@@ -15,6 +15,10 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">{env}</a>
         </h1>
 
+        <p className={styles.description}>	
+          all cats are beautiful
+        </p>
+
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
